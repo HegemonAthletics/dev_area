@@ -642,7 +642,7 @@ iframe {
   max-width: 350px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 900px) {
   .logo-mobile img {
     width: 50%;
   }
