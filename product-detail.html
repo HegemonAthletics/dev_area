@@ -1091,7 +1091,7 @@
 		$('.btn-addcart-product-detail').each(function(){
 			var nameProduct = $('.product-detail-name').html();
 			$(this).on('click', function(){
-				swal("Are you sure you want to do this?", {
+				swal(nameProduct, "has been added to your cart !", "success", {
   					buttons: ["View Cart", "Continue Shopping"],
 				});
 			});
