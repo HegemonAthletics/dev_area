@@ -1077,7 +1077,9 @@
 		$('.block2-btn-addcart').each(function(){
 			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
 			$(this).on('click', function(){
-				swal(nameProduct, "has been added to your cart !", "success",);
+				swal(nameProduct, "has been added to your cart !", "success", {
+  					buttons: ["View Cart", true],
+				});
 			});
 		});
 
@@ -1092,7 +1094,7 @@
 			var nameProduct = $('.product-detail-name').html();
 			$(this).on('click', function(){
 				swal(nameProduct, "has been added to your cart !", "success", {
-  					buttons: ["View Cart", "Continue Shopping"],
+  					buttons: ["View Cart", true],
 				});
 			});
 		});
