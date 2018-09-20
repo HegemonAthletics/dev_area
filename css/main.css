@@ -525,7 +525,7 @@ iframe {
   top: 0;
   left: 0;
   position: fixed;
-  z-index: 1400;
+  z-index: 1000;
   box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
   -webkit-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
@@ -696,7 +696,7 @@ li.sale-noti > a {
 .sub_menu {
   list-style-type: none;
   position: absolute;
-  z-index: 1100;
+  z-index: 1000;
   top:0;
   left:100%;
   width: 225px;
@@ -810,7 +810,7 @@ li.sale-noti > a {
 */
 .header-cart {
   position: absolute;
-  z-index: 1100;
+  z-index: 1000;
   width: 339px;
   top: 190%;
   right: -10px;
@@ -1034,7 +1034,7 @@ li.sale-noti > a {
   width: 300px;
   top: 190%;
   right: -80px;  
-  z-index: 1100;
+  z-index: 1000;
   transform-origin: top right;
 }
 
@@ -1179,7 +1179,7 @@ li.sale-noti > a {
 }
 
 .fixed-header2 {
-  z-index: 1300;
+  z-index: 1000;
   position: fixed;
   height: 65px;
   left: 0;
@@ -1208,7 +1208,7 @@ li.sale-noti > a {
 */
 .container-menu-header-v3 {
   position: fixed;
-  z-index: 1200;
+  z-index: 1000;
   top: 0;
   left: 0;
   background-color: #fff;
