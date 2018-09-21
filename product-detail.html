@@ -251,9 +251,9 @@
 
 					<span class="linedivide1"></span>
 
-					<div class="header-wrapicon2">
+					<div class="header-wrapicon2 snipcart-summary">
 						<img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>
+						<span class="header-icons-noti snipcart-total-items"></span>
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
@@ -1101,7 +1101,7 @@
 			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
 			$(this).on('click', function(){
 				swal(nameProduct, "has been added to your cart !", "success", {
-  					buttons: ["View Cart", true],
+  					buttons: ["View Cart", "Continue Shopping"],
 				});
 			});
 		});
@@ -1117,7 +1117,7 @@
 			var nameProduct = $('.product-detail-name').html();
 			$(this).on('click', function(){
 				swal(nameProduct, "has been added to your cart !", "success", {
-  					buttons: ["View Cart", true],
+  					buttons: ["View Cart", "Continue Shopping"],
 				});
 			});
 		});
