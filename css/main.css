@@ -536,7 +536,7 @@ iframe {
 /*[ Top bar ]
 ===========================================================*/
 .topbar {
-  height: 45px;
+  height: 30px;
   background-color: #000000;
   position: relative;
   display: -webkit-box;
