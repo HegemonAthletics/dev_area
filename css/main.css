@@ -957,8 +957,9 @@ li.sale-noti > a {
 
 /* User Account Dropdown Button */
 .dropbtn-user {
+    font-family: Montserrat-Regular;
     color: #888888;
-    font-size: 16px;
+    font-size: 13px;
     border: none;
 }
 
