@@ -630,6 +630,7 @@
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
+  color: white;
 }
 .fa-github:before {
   content: "\f09b";
@@ -1217,6 +1218,7 @@
 }
 .fa-instagram:before {
   content: "\f16d";
+  color: white;
 }
 .fa-flickr:before {
   content: "\f16e";
